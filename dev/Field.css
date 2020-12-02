@@ -1,0 +1,32 @@
+.field {
+  position: relative;
+}
+.field__errors {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.field__error {
+  display: none;
+  color: #b40000;
+  opacity: 0;
+  transition-duration: 150ms;
+}
+.field__error-enter .field__error-show {
+  opacity: 1;
+}
+
+.f-error--show {
+  display: block;
+}
+.f-error--enter-to {
+  opacity: 1;
+}
+
+.container {
+  max-width: 100%;
+  width: 400px;
+  margin: 100px auto;
+}
+
+/*# sourceMappingURL=Field.css.map*/

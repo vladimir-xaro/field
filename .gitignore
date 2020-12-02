@@ -1,0 +1,8 @@
+/build
+/node_modules
+/tests
+/webpack
+
+package-lock.json
+tsconfig.json
+tsconfig.json.default

@@ -1,0 +1,32 @@
+.field {
+  position: relative;
+
+  &__errors {
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  &__error {
+    display: none;
+    color: rgb(180, 0, 0);
+    opacity: 0;
+    transition-duration: 150ms;
+
+    &-enter
+
+    &-show {
+      opacity: 1;
+    }
+  }
+}
+
+.f-error {
+  &--show {
+    display: block;
+  }
+
+  &--enter-to {
+    opacity: 1;
+  }
+}
